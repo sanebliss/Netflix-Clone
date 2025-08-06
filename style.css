@@ -5,6 +5,23 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+  #disclaimer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      z-index: 9999;
+   }
+
+    #disclaimer button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
 
 body {
     background-color: black;
@@ -307,4 +324,5 @@ footer .questions {
     display: flex;
     flex-direction: column;
     gap: 23px;
+
 }
