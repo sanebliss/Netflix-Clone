@@ -4,13 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    
+ <div id="disclaimer">
+  <p>
+    DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise
+  </p>
+  <button onclick="closeDisclaimer()">I Understand</button>
+</div>
 
+<script>
+  function closeDisclaimer() {
+    document.getElementById("disclaimer").style.display = "none";
+  }
+</script>
+    
     <div class="main">
         <nav>
             <span><img width="53" src="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/b0acb01fa88ae0753ef903b8fc45fadb5efe1c2b/Video%2053/assets/images/logo.svg" alt=""></span>
@@ -167,4 +179,5 @@
 
 
 </html>
+
 
